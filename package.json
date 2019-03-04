@@ -20,5 +20,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "netlify": "^2.4.0"
   }
 }
