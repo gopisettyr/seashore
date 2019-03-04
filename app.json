@@ -2,7 +2,7 @@
     "name": "Start on Heroku: Node.js",
     "description": "Working with heroku",
     "repository": "https://github.com/gopisettyr/seashore",
-    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "logo": "public/favicon.ico",
     "keywords": ["node", "express", "heroku"],
     "image": "heroku/nodejs"
   }
