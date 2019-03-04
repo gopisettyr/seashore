@@ -19,11 +19,11 @@
   "homepage": "https://github.com/gopisettyr/seashore#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "nodemon": "^1.18.10"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "netlify": "^2.4.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
   }
 }
