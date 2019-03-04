@@ -9,7 +9,8 @@
   },
   "keywords": [
     "example",
-    "heroku"
+    "heroku",
+    "node"
   ],
   "repository": {
     "type": "git",
@@ -27,8 +28,7 @@
   },
   "devDependencies": {
     "netlify": "^2.4.0",
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.10"
+    "node-sass": "^4.11.0"
   },
   "engines": {
     "node": "10.15.1"
