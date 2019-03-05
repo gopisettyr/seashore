@@ -9,7 +9,7 @@ const sendgridTransport = require('nodemailer-sendgrid-transport');
 const transporter = nodemailer.createTransport(
     sendgridTransport({
         auth : {
-            api_key : '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'
+            api_key : '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'
         }
     })
 );
@@ -20,7 +20,6 @@ app.get('/', (req,res,next) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 })
 app.post('/mail', (req,res,next) => {
-    res.redirect('/');
     return transporter.sendMail({
         to: req.body.email,
         from: 'support@starkexpo.com',
