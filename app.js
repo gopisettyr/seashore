@@ -20,6 +20,7 @@ app.get('/', (req,res,next) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 })
 app.post('/mail', (req,res,next) => {
+    res.end();
     return transporter.sendMail({
         to: req.body.email,
         from: 'support@starkexpo.com',
