@@ -1,0 +1,9 @@
+{
+    "name": "Start on Heroku: Node.js",
+    "description": "Working with heroku",
+    "repository": "https://github.com/gopisettyr/seashore",
+    "logo": "public/favicon.ico",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+  }
+  

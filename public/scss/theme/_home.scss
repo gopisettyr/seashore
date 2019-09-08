@@ -31,6 +31,7 @@
   background: -moz-linear-gradient( 0deg, rgb(144,140,237) 0%, rgb(181,111,232) 100%);
   background: -webkit-linear-gradient( 0deg, rgb(144,140,237) 0%, rgb(181,111,232) 100%);
   background: -ms-linear-gradient( 0deg, rgb(144,140,237) 0%, rgb(181,111,232) 100%);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -637,9 +638,6 @@
 
 //--------- start blog  area -------------//
 
-.blog-area{
-
-}
 
 .single-blog{
 	img{
@@ -900,9 +898,6 @@
 
 .about-generic-area {
 	background: $white;
-	.border-top-generic {
-
-	}
 	p {
 		margin-bottom: 20px;
 	}

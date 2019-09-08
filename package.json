@@ -1,0 +1,39 @@
+{
+  "name": "seashore",
+  "version": "1.0.0",
+  "description": "This is a git used repo",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o /public/css/",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "example",
+    "heroku",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopisettyr/seashore.git"
+  },
+  "author": "Tekumalla Sai Sriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopisettyr/seashore/issues"
+  },
+  "homepage": "https://github.com/gopisettyr/seashore#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "5.1.1",
+    "nodemailer-sendgrid-transport": "0.2.0"
+  },
+  "devDependencies": {
+    "netlify": "^2.4.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "1.18.10"
+  },
+  "engines": {
+    "node": "10.15.1"
+  }
+}
